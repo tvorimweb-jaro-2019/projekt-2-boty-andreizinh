@@ -21,3 +21,149 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+.zbozi {
+    width: 670px;
+    height: 440px;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    box-shadow: 1px 3px 3px #959595;
+    border-radius: 2%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.vizual {
+    float: left;
+    width: 50%;
+    height: 440px;
+    background: linear-gradient(#06d7c1, #50cc49);
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.slogan {
+    position: relative;
+    top: 60px;
+    left: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bota {
+    position: relative;
+    left: -80px;
+    top: 50px;
+}
+.cenovka {
+    color: white;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+    text-align: right;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400px;
+
+}
+
+.detaily {
+    float: right;
+    max-width: 50%;
+    height: 440px;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+    border-top-right-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.produkt {
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.popis {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 0px 30px 0px;
+    border-bottom: 1px #06d7c1 solid;
+}
+
+.parametr {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.velikosti {
+    padding: 0px 0px 0px 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.velikosti li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 8px;
+    padding: 2px;
+}
+
+.velikosti a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.velikosti a:hover, velikosti a:focus {
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #f15f42;
+}
+
+.akce {
+    display: block;
+    position: relative;
+    bottom: -50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #f15f42;
+    width: 50%;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px #959595;
+
+}
+
+.tlacitko {
+    text-decoration: none;
+    color: white;
+}
